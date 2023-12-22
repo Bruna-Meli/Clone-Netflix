@@ -9,11 +9,6 @@ body{
     background-color: #363636;
 }
 
-.titulo{
-    font-size: 50px;
-    margin: 0; 
-}
-
 #container{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4) 50%), linear-gradient(0deg, rgba(0, 1, 3, 0.9), rgba(0, 0, 0, 0.4) 50%), url(https://assets.nflxext.com/ffe/siteui/vlv3/563192ea-ac0e-4906-a865-ba9899ffafad/7df102ff-33bf-412b-b3b8-c97991485d89/BR-pt-20231218-popsignuptwoweeks-perspective_alpha_website_small.jpg);
     background-size: cover;
@@ -92,12 +87,12 @@ main h3{
     font-size: 20px;
 }
 
-form{
-    display: flex;
+form{  /*tambem serve pro botao que esta mais embaixo do site o section id="perguntas"*/
+    display: flex; 
     flex-direction: row;
 }
 
-input[type="email"]{
+input[type="email"]{ /*tambem serve pro botao que esta mais embaixo do site o section id="perguntas"*/
     height: 52px;
     width: 380px;
     background-color: rgba(29, 29, 29, 0.488);
@@ -107,11 +102,11 @@ input[type="email"]{
     padding: 0px 10px;
 }
 
-input[type="email"]::placeholder {
+input[type="email"]::placeholder { /*tambem serve pro botao que esta mais embaixo do site o section id="perguntas"*/
     color: #bebebe;
 }
 
-.btn-vamosla{
+.btn-vamosla{ /*tambem serve pro botao que esta mais embaixo do site o section id="perguntas"*/
     margin-left: 10px;
     font-size: 22px;
     padding: 2px 23px;
@@ -122,7 +117,8 @@ input[type="email"]::placeholder {
     border-radius: 5px;
     cursor: pointer;
 }
-/* primeira section ---------------------------------------------*/
+
+/* section global---------------------------------------------*/
 .section{
     background-color: black;
     display: flex;
@@ -133,18 +129,33 @@ input[type="email"]::placeholder {
     margin-top: 8px;
 }
 
-.box-um {
+.box-umetres {
     color: white;
     display: flex;
     width: 50%;
-    float: left; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 130px 0px 30px 150px;
 }
 
-.box-um h1{
+.box-doisequatro {
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 170px 110px 0px;
+    width: 50%;
+    
+}
+
+.titulo{
+    font-size: 50px;
+    margin: 0; 
+}
+
+/* primeira section ---------------------------------------------*/
+#box-um h1{
     
     font-size: 50px;
     margin: 0;
@@ -152,14 +163,13 @@ input[type="email"]::placeholder {
     margin-top: -100px;
 }
 
-.box-um h2{
+#box-um h2{
     margin-top: 15px;
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 0.5px;
 }
-
 
 #tv{
     width: 500px; 
@@ -167,21 +177,7 @@ input[type="email"]::placeholder {
     padding: 100px 170px 110px 0px;
 }
 
-
 /* segunda section ---------------------------------------------*/
-
-
-.box-dois {
-    color: white;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 170px 110px 0px;
-    width: 50%;
-}
-
-
-
 #pc{
     width: 500px; 
     height: 375px; 
@@ -189,31 +185,15 @@ input[type="email"]::placeholder {
     padding: 30px 0px 30px 160px;
 }
 
-
 /* terceira section ---------------------------------------------*/
-
-
-.box-tres {
-    color: white;
-    display: flex;
-    width: 50%;
-    float: left; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 130px 0px 30px 150px;
-}
-
-
-.box-tres h1{
-    
+#box-tres h1{
     font-size: 50px;
     margin: 0;
     margin-top: -100px;
     margin-left: 10px;
 }
 
-.box-tres h2{
+#box-tres h2{
     margin-top: 15px;
     font-weight: 500;
     font-size: 24px;
@@ -221,27 +201,13 @@ input[type="email"]::placeholder {
     letter-spacing: 0.5px;
 }
 
-
 #infantil{
     width: 500px; 
     height: 375px; 
     padding: 100px 170px 110px 0px;
 }
 
-
 /* quarta section ---------------------------------------------*/
-
-.box-quatro {
-    color: white;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 170px 110px 0px;
-    width: 50%;
-}
-
-
-
 #celular{
     width: 500px; 
     height: 375px; 
@@ -261,7 +227,6 @@ input[type="email"]::placeholder {
     align-items: center;
     flex-direction: column;
     margin-bottom: 8px;
-    
 }
 
 #perguntas h1{
@@ -282,7 +247,6 @@ input[type="email"]::placeholder {
     font-size: 25px;
     border: none;
     margin: 0px 0px 10px 0px;
-    
 }
 
 #perguntas h3{
@@ -293,7 +257,7 @@ input[type="email"]::placeholder {
 
 /* footer ---------------------------------------------*/
 footer{
-    background-color: #91e509;
+    background-color: #0f0569;
     height: 440px;
 
 }
