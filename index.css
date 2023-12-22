@@ -109,7 +109,7 @@ input[type="email"]::placeholder {
     color: #bebebe;
 }
 
-#btn-start{
+#btn-vamosla{
     margin-left: 10px;
     font-size: 22px;
     padding: 2px 23px;
@@ -118,4 +118,6 @@ input[type="email"]::placeholder {
     background-color: #e50914;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
+/* header ---------------------------------------------*/
