@@ -120,24 +120,54 @@ input[type="email"]::placeholder { /*tambem serve pro botao que esta mais embaix
 
 
 /* propaganda---------------------------------------------*/
+
+
+#containerpropaganda{
+    display: flex;
+    justify-content: center;
+}
+
 #propaganda{
     background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% );
     color: white;
     position: absolute;
     z-index: 1;
     top: 625px;
-    right: 70px;
     height: 140px;
     width: 1205px;
-    padding: 22;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-#propaganda p {
+
+#textopropaganda{
+    flex-direction: column;
+    margin-left: 30px;
+    line-height: 1;
+    margin-bottom: 10px;
+    
+}
+
+
+#p1 {
     margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    
 }
 
+#p2{
+    font-weight: 400;
+}
 
+#saibamais{
+    color: #448ED6;
+    font-weight: 700;
+    font-size: 17px;
+}
 
 /* section global---------------------------------------------*/
 .sections section{
