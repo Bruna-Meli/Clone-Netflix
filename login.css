@@ -1,0 +1,21 @@
+body{
+    background-image: url(imagens/fundo.jpg);
+    margin: 0;
+}
+
+header{
+    background: linear-gradient(180deg,rgba(0,0,0,.5) 0,transparent);
+    width: 100%;
+}
+
+#logo{
+    height: 45px;
+    width: 167px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
