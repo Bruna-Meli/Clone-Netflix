@@ -35,7 +35,6 @@ select{
     font-size: 16px;
     color: rgb(224, 224, 224);
     background-color: rgba(0, 0, 0, 0.712);
-    margin-right: 10px;
     cursor: pointer;
     font-weight:500;
     border-radius: 5px;

@@ -3,7 +3,6 @@ body{
     margin: 0;
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 header{
@@ -26,7 +25,8 @@ main{
     width: 315px;
     flex-direction: column;
     padding: 60px 68px 40px 68px;
-    
+    margin-bottom: 90px;
+
 }
 
 #main{
@@ -38,7 +38,6 @@ h1{
     margin: 0;
     margin-bottom: 28px;
     margin-top: 5px;
-    
 }
 
 input[type="email"], [type="password"]{
@@ -49,13 +48,13 @@ input[type="email"], [type="password"]{
     border: none;
     margin-bottom: 16px;
     border-radius: 4px;
-
 }
 
 input[type="email"]::placeholder{
  
     transform: translateY(-50%);
 }
+
 input[type="password"]::placeholder{
 
     transform: translateY(-50%);
@@ -74,14 +73,12 @@ input[type="submit"]{
     border: none;
 }
 
-
 input[type=checkbox]{
     height: 17px;
     width: 17px;
     margin: 0;
     border: none;
 }
-
 
 #checkbox{
     color: #b3b3b3;
@@ -98,7 +95,6 @@ input[type=checkbox]{
     text-decoration: none;
 }
 
-
 form{
     height:344px ;
     width: 314px;
@@ -108,4 +104,62 @@ p{
     color: #737373;
     font-size: 16px;
     font-weight: 400;
+}
+
+a#assine{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+a#assine:hover{
+    text-decoration: underline;
+}
+
+p#recaptcha{
+    font-size: 13px;
+    color: #8c8c8c;
+}
+
+footer{
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.801);
+    padding: 10px 175px 30px 175px;
+}
+
+#ul{
+    display: flex;
+    justify-content: space-around;   
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    font-size: 13px;
+    color: #737373;
+    margin: 0px -125px;
+    cursor: pointer;
+    margin-bottom: 18px;
+}
+
+select{
+    background-color: #000;
+    border: 1px solid #333;
+    height: 40px ;
+    width: 140px;
+    font-size: 16px;
+    color: rgb(224, 224, 224);
+    cursor: pointer;
+    font-weight:500;
+    border-radius: 5px;
+    padding-left: 25px;
+    
+}
+
+option{
+    background-color: white;
+    color: black;
 }
